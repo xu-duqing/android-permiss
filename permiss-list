@@ -9,13 +9,15 @@
 			"Key": "android.permission.ACCESS_COARSE_LOCATION",
 			"Title": "大概位置",
 			"Memo": "访问大概的位置源(例如蜂窝网络数据库)以确定手机的大概位置(如果可以)。恶意应用程序可借此确定您所处的大概位置。",
-			"Level": 1
+			"Level": 1,
+			"Group": "android.permission-group.LOCATION"
 		},
 		{
 			"Key": "android.permission.ACCESS_FINE_LOCATION",
 			"Title": "精准的(GPS)位置",
 			"Memo": "访问精准的位置源，例如手机上的全球定位系统(如果有)。恶意应用程序可能会借此确定您所处的位置，并可能消耗额外的电池电量。",
-			"Level": 1
+			"Level": 1,
+			"Group": "android.permission-group.LOCATION"
 		},
 		{
 			"Key": "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
@@ -105,7 +107,8 @@
 			"Key": "android.permission.CAMERA",
 			"Title": "拍照",
 			"Memo": "允许应用程序使用相机拍照，这样应用程序可随时收集进入相机镜头的图像。",
-			"Level": 0
+			"Level": 0,
+			"Group": "android.permission-group.CAMERA"
 		},
 		{
 			"Key": "android.permission.CHANGE_COMPONENT_ENABLED_STATE",
@@ -309,7 +312,8 @@
 			"Key": "android.permission.READ_CALENDAR",
 			"Title": "读取日历活动",
 			"Memo": "允许应用程序读取您手机上存储的所有日历活动。恶意应用程序可借此将您的日历活动发送给其他人。",
-			"Level": 1
+			"Level": 1,
+			"Group": "android.permission-group.CALENDAR"
 		},
 		{
 			"Key": "android.permission.READ_CONTACTS",
@@ -345,7 +349,8 @@
 			"Key": "android.permission.READ_SMS",
 			"Title": "读取短信或彩信",
 			"Memo": "允许应用程序读取您的手机或 SIM 卡中存储的短信。恶意应用程序可借此读取您的机密信息。",
-			"Level": 2
+			"Level": 2,
+			"Group": "android.permission-group.SMS"
 		},
 		{
 			"Key": "android.permission.READ_SYNC_SETTINGS",
@@ -375,25 +380,29 @@
 			"Key": "android.permission.RECEIVE_MMS",
 			"Title": "接收彩信",
 			"Memo": "允许应用程序接收和处理彩信。恶意应用程序可借此监视您的信息，或者将信息删除而不向您显示。",
-			"Level": 1
+			"Level": 1,
+			"Group": "android.permission-group.SMS"
 		},
 		{
 			"Key": "android.permission.RECEIVE_SMS",
 			"Title": "接收短信",
 			"Memo": "允许应用程序接收和处理短信。恶意应用程序可借此监视您的信息，或者将信息删除而不向您显示。",
-			"Level": 1
+			"Level": 1,
+			"Group": "android.permission-group.SMS"
 		},
 		{
 			"Key": "android.permission.RECEIVE_WAP_PUSH",
 			"Title": "接收 WAP",
 			"Memo": "允许应用程序接收和处理 WAP 信息。恶意应用程序可借此监视您的信息，或者将信息删除而不向您显示。",
-			"Level": 1
+			"Level": 1,
+			"Group": "android.permission-group.SMS"
 		},
 		{
 			"Key": "android.permission.RECORD_AUDIO",
 			"Title": "录音",
 			"Memo": "允许应用程序访问录音路径。",
-			"Level": 1
+			"Level": 1,
+			"Group": "android.permission-group.MICROPHONE"
 		},
 		{
 			"Key": "android.permission.REORDER_TASKS",
@@ -411,7 +420,8 @@
 			"Key": "android.permission.SEND_SMS",
 			"Title": "发送短信",
 			"Memo": "允许应用程序发送短信。恶意应用程序可能会不经您的确认就发送信息，给您带来费用。",
-			"Level": 2
+			"Level": 2,
+			"Group": "android.permission-group.SMS"
 		},
 		{
 			"Key": "android.permission.SET_ACTIVITY_WATCHER",
@@ -531,7 +541,8 @@
 			"Key": "android.permission.WRITE_CALENDAR",
 			"Title": "添加或修改日历活动以及向邀请对象发送电子邮件",
 			"Memo": "允许应用程序添加或更改日历中的活动，这可能会向邀请对象发送电子邮件。恶意应用程序可能会借此清除或修改您的日历活动，或者向邀请对象发送电子邮件。",
-			"Level": 1
+			"Level": 1,
+			"Group": "android.permission-group.CALENDAR"
 		},
 		{
 			"Key": "android.permission.WRITE_CONTACTS",
@@ -765,7 +776,8 @@
 			"Key": "android.permission.READ_PHONE_STATE",
 			"Title": "读取手机状态和身份",
 			"Memo": "允许应用程序访问设备的手机功能。有此权限的应用程序可确定此手机的号码和序列号，是否正在通话，以及对方的号码等。",
-			"Level": 1
+			"Level": 1,
+			"Group": "android.permission-group.PHONE"
 		},
 		{
 			"Key": "android.permission.READ_USER_DICTIONARY",
@@ -819,7 +831,8 @@
 			"Key": "android.permission.WRITE_EXTERNAL_STORAGE",
 			"Title": "修改/删除SD卡中的内容",
 			"Memo": "允许应用程序写入SD卡。",
-			"Level": 0
+			"Level": 0,
+			"Group": "android.permission-group.STORAGE"
 		},
 		{
 			"Key": "com.android.browser.permission.WRITE_HISTORY_BOOKMARKS",
