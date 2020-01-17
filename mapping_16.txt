@@ -1,6 +1,3 @@
-Permission:wacai.permission.APP_LIST
-1 Callers:
-<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>
 Permission:android.permission.READ_PHONE_STATE
 9 Callers:
 <android.telephony.TelephonyManager: java.lang.String getDeviceSoftwareVersion()>
